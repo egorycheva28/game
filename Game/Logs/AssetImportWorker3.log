@@ -15,7 +15,7 @@ C:/Users/egorm/AppData/Local/Temp/game/Game
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51333
+53696
 Successfully changed project path to: C:/Users/egorm/AppData/Local/Temp/game/Game
 C:/Users/egorm/AppData/Local/Temp/game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/egorm/AppData/Local/Temp/game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18440] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 3667142650 [EditorId] 3667142650 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8352] Host "[IP] 10.10.61.14 [Port] 0 [Flags] 2 [Guid] 1679894780 [EditorId] 1679894780 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18440] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 3667142650 [EditorId] 3667142650 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8352] Host "[IP] 10.10.61.14 [Port] 0 [Flags] 2 [Guid] 1679894780 [EditorId] 1679894780 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005090 seconds.
-- Loaded All Assemblies, in  0.353 seconds
+Registered in 0.006724 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.289 seconds
-Domain Reload Profiling: 641ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 697ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (104ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (142ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (290ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (232ms)
+		SetupLoadedEditorAssemblies (234ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,138 +117,94 @@ Domain Reload Profiling: 641ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.237 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.337 seconds
-Domain Reload Profiling: 573ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1296ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (8ms)
-		LoadAssemblies (81ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (337ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (779ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (29ms)
-			ProcessInitializeOnLoadAttributes (137ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (479ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (46.9 KB). Loaded Objects now: 499.
-Memory consumption went from 60.7 MB to 60.7 MB.
-Total: 1.963600 ms (FindLiveObjects: 0.033500 ms CreateObjectMapping: 0.003800 ms MarkObjects: 1.861100 ms  DeleteObjects: 0.064400 ms)
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3575.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 5.768300 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.152100 ms MarkObjects: 5.146500 ms  DeleteObjects: 0.155000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 165515.499366 seconds.
-  path: Assets/Coconut Palm Tree Pack/Materials/Coconut_Palm_Tree_AFS.mat
-  artifactKey: Guid(4123024ef4e58b446bc6eebae6957516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Materials/Coconut_Palm_Tree_AFS.mat using Guid(4123024ef4e58b446bc6eebae6957516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 41268.255663 seconds.
+  path: Assets/Coconut Palm Tree Pack/Prefabs/AFS/Coconut_Palm_Tree03_AFS.prefab
+  artifactKey: Guid(360ab34753a7cfd47980f83d207ace27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coconut Palm Tree Pack/Prefabs/AFS/Coconut_Palm_Tree03_AFS.prefab using Guid(360ab34753a7cfd47980f83d207ace27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b62347445d8d45e4f27d2f280099ea1e') in 0.456896 seconds
+ -> (artifact id: '79a762289a9f9febfb901d0bd870d679') in 0.518568 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.101564 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree02_AFS.asset
-  artifactKey: Guid(09bd5d4c6f3acdd47ae3c2b5ddafb40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree02_AFS.asset using Guid(09bd5d4c6f3acdd47ae3c2b5ddafb40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Coconut Palm Tree Pack/Prefabs/AFS/Coconut_Palm_Tree04_AFS.prefab
+  artifactKey: Guid(b75e8d8222ec3e24ab74b7ba10ddd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coconut Palm Tree Pack/Prefabs/AFS/Coconut_Palm_Tree04_AFS.prefab using Guid(b75e8d8222ec3e24ab74b7ba10ddd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a2c9a0ebc962d5d59cd8dce033cc0217') in 0.049083 seconds
+ -> (artifact id: 'daa06500165f77c45fdce220d13dcbc0') in 0.049769 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.344473 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree04_AFS.asset
-  artifactKey: Guid(9c10318fd7011e74b892c4fd7f8c0e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree04_AFS.asset using Guid(9c10318fd7011e74b892c4fd7f8c0e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '477c84b16f17e87daf27b61dc4ff0d1e') in 0.036645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001256 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree09_AFS.asset
-  artifactKey: Guid(32a6e14db291a864f8942915d1567814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree09_AFS.asset using Guid(32a6e14db291a864f8942915d1567814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b519ab0e2d875be14d5a4172bc8c2275') in 0.052436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree11_AFS.asset
-  artifactKey: Guid(e7d1e0d2854fff548a409283f167da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree11_AFS.asset using Guid(e7d1e0d2854fff548a409283f167da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '49eab349eff564a308387a3821561281') in 0.037005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree06_AFS.asset
-  artifactKey: Guid(7ccbd4930801e5e489cb60b9731f1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree06_AFS.asset using Guid(7ccbd4930801e5e489cb60b9731f1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '185e470f0ada35f9a274b4ff18d09e78') in 0.024562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree07_AFS.asset
-  artifactKey: Guid(fc8bcf76009ae6d4a9a79ddef3564770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coconut Palm Tree Pack/Models/Coconut_Palm_Tree07_AFS.asset using Guid(fc8bcf76009ae6d4a9a79ddef3564770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9175db4b639d995858cba85060d574b1') in 0.035652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
