@@ -1,11 +1,17 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TextSwitcher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SC_FPSController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Door.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/menu_script.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/TextSwitcher.cs" Line="6" Column="27" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TextSwitcherController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Door.cs" Line="202" Column="18" />
+      <File FileName="Assets/Scripts/menu_script.cs" />
+      <File FileName="Assets/Scripts/TextSwitcher.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/TextSwitcherController.cs" />
+      <File FileName="Assets/Scripts/Take.cs" />
+      <File FileName="Assets/Scripts/CameraCoontroller.cs" />
+      <File FileName="Assets/Scripts/KeyEvent.cs" />
+      <File FileName="Assets/Scripts/PlayerKey.cs" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="22" Column="31" />
+      <File FileName="Assets/Scripts/SC_FPSController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +19,9 @@
           <Node name="Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="TextSwitcher.cs" selected="True" />
+                <Node name="SC_FPSController.cs" selected="True" />
               </Node>
+              <Node name="TakeObject" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="78f3b506-9f8a-4253-83e4-0d0ca469b3f4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b1e7cec6-8966-47b2-a280-aa7d5f5acffa" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

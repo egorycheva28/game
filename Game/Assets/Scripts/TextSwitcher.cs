@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TextSwitcher : MonoBehaviour
 {
-    public Text[] texts;  
+    public Text[] texts;   
     public Button nextButton;
     public Button prevButton;
-    private int currentIndex = 0;  // индекс текущего текста
+    private int currentIndex = 0;  
 
     void Start()
     {
@@ -22,6 +23,10 @@ public class TextSwitcher : MonoBehaviour
         {
             currentIndex++;
             UpdateTextVisibility();
+        }
+        else
+        {
+            LoadNextScene();
         }
     }
 
@@ -39,6 +44,19 @@ public class TextSwitcher : MonoBehaviour
         for (int i = 0; i < texts.Length; i++)
         {
             texts[i].gameObject.SetActive(i == currentIndex);
+        }
+    }
+
+    void LoadNextScene()
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings) 
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.LogWarning("Достигнут конец списка сцен в билде!");
         }
     }
 }

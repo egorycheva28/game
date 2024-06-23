@@ -414,11 +414,16 @@
 "Assets/Scripts/menu_script.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerKey.cs"
+"Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/SC_FPSController.cs"
+"Assets/Scripts/Take.cs"
+"Assets/Scripts/Take1.cs"
 "Assets/Scripts/TextSwitcher.cs"
 "Assets/Scripts/TextSwitcherController.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberExample.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberRenderer.cs"
 "Assets/SpriteNumberRenderer/Scripts/SpriteNumber.cs"
+"Assets/TakeObject/FPC_Param.cs"
 -langversion:9.0
 /deterministic
 /optimize+
