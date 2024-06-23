@@ -108,6 +108,7 @@
     <Compile Include="Assets/SpriteNumberRenderer/Scripts/NumberRenderer.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/DynamicSkyForDemo.cs" />
     <Compile Include="Assets/TakeObject/FPC_Param.cs" />
+    <Compile Include="Assets/Scripts/TakeKeyBath.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs" />
     <Compile Include="Assets/Scripts/CodeLock.cs" />

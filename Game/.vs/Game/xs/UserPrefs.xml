@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Codelock_password_element.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TakeKeyBath.cs">
     <Files>
-      <File FileName="Assets/Scripts/Door.cs" Line="229" Column="2" />
-      <File FileName="Assets/Scripts/menu_script.cs" />
-      <File FileName="Assets/Scripts/TextSwitcher.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/TextSwitcher.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/menu_script.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/Door.cs" Line="239" Column="1" />
       <File FileName="Assets/Scripts/TextSwitcherController.cs" />
       <File FileName="Assets/Scripts/Take.cs" />
       <File FileName="Assets/Scripts/CameraCoontroller.cs" Line="26" Column="2" />
-      <File FileName="Assets/Scripts/KeyEvent.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/PlayerKey.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="89" Column="1" />
+      <File FileName="Assets/Scripts/KeyEvent.cs" Line="13" Column="2" />
+      <File FileName="Assets/Scripts/PlayerKey.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="16" Column="28" />
       <File FileName="Assets/Scripts/SC_FPSController.cs" />
-      <File FileName="Assets/Scripts/Inventory.cs" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="323" Column="27" />
       <File FileName="Assets/Scripts/Item.cs" Line="5" Column="18" />
-      <File FileName="Assets/Scripts/DoorEvent.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/DoorEvent.cs" Line="28" Column="2" />
       <File FileName="Assets/Scripts/CodeLock.cs" Line="64" Column="2" />
       <File FileName="Assets/Scripts/Codelock_password_element.cs" Line="17" Column="2" />
+      <File FileName="Assets/ScriptableObject/Sources/Item.cs" Line="5" Column="58" />
+      <File FileName="Assets/Scripts/TakeKeyBath.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

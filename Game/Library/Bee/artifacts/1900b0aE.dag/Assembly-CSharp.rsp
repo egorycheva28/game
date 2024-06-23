@@ -421,6 +421,7 @@
 "Assets/Scripts/SC_FPSController.cs"
 "Assets/Scripts/Take.cs"
 "Assets/Scripts/Take1.cs"
+"Assets/Scripts/TakeKeyBath.cs"
 "Assets/Scripts/TextSwitcher.cs"
 "Assets/Scripts/TextSwitcherController.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberExample.cs"
