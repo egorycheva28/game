@@ -112,7 +112,8 @@ public class Door : MonoBehaviour
                     if (door_axis == door_axis_ENUM.X)
                     {
                         //float angleX = Mathf.MoveTowardsAngle(transform.localEulerAngles.x, start_dist_or_angle + open_dist_or_angle, open_speed * Time.deltaTime);
-                        transform.Rotate(transform.up * open_dist_or_angle * Time.deltaTime);
+                        transform.Rotate(open_dist_or_angle, 0, 0);
+                        //transform.Rotate(transform.up * open_dist_or_angle * Time.deltaTime);
                         //transform.localPosition = new Vector3(angleX,0,0);
                         if (transform.localEulerAngles.x == start_dist_or_angle + open_dist_or_angle)
                         {
@@ -132,8 +133,9 @@ public class Door : MonoBehaviour
                     }
                     else if (door_axis == door_axis_ENUM.Z)
                     {
-                        float angleZ = Mathf.MoveTowardsAngle(transform.localEulerAngles.z, start_dist_or_angle + open_dist_or_angle, open_speed * Time.deltaTime);
-                        transform.Rotate(transform.up * angleZ * Time.deltaTime);
+                        transform.Rotate(0, 0, open_dist_or_angle);
+                        //float angleZ = Mathf.MoveTowardsAngle(transform.localEulerAngles.z, start_dist_or_angle + open_dist_or_angle, open_speed * Time.deltaTime);
+                        //transform.Rotate(transform.up * angleZ * Time.deltaTime);
                         //transform.localPosition = new Vector3(0,0,angleZ);
                         if (transform.localEulerAngles.z == start_dist_or_angle + open_dist_or_angle)
                         {
@@ -178,8 +180,9 @@ public class Door : MonoBehaviour
                 {
                     if (door_axis == door_axis_ENUM.X)
                     {
-                        float angleX = Mathf.MoveTowardsAngle(transform.localEulerAngles.x, start_dist_or_angle, open_speed * Time.deltaTime);
-                        transform.localPosition = new Vector3(angleX, 0, 0);
+                        //float angleX = Mathf.MoveTowardsAngle(transform.localEulerAngles.x, start_dist_or_angle, open_speed * Time.deltaTime);
+                        transform.Rotate(-open_dist_or_angle, 0, 0);
+                        //transform.localPosition = new Vector3(angleX, 0, 0);
                         if (transform.localEulerAngles.x == start_dist_or_angle)
                         {
                             Stop_open_close();
@@ -188,7 +191,7 @@ public class Door : MonoBehaviour
                     else if (door_axis == door_axis_ENUM.Y)
                     {
                         //float angleY = Mathf.MoveTowardsAngle(transform.localEulerAngles.y, start_dist_or_angle, open_speed * Time.deltaTime);
-                        transform.Rotate(0, open_dist_or_angle * (-1), 0);
+                        transform.Rotate(0, -open_dist_or_angle, 0);
                         //transform.localPosition = new Vector3(0, angleY, 0);
                         if (transform.localEulerAngles.y == start_dist_or_angle)
                         {
@@ -197,8 +200,9 @@ public class Door : MonoBehaviour
                     }
                     else if (door_axis == door_axis_ENUM.Z)
                     {
-                        float angleZ = Mathf.MoveTowardsAngle(transform.localEulerAngles.z, start_dist_or_angle, open_speed * Time.deltaTime);
-                        transform.localPosition = new Vector3(0, 0, angleZ);
+                        //float angleZ = Mathf.MoveTowardsAngle(transform.localEulerAngles.z, start_dist_or_angle, open_speed * Time.deltaTime);
+                        transform.Rotate(0, 0, -open_dist_or_angle);
+                        //transform.localPosition = new Vector3(0, 0, angleZ);
                         if (transform.localEulerAngles.z == start_dist_or_angle)
                         {
                             Stop_open_close();

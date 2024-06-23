@@ -363,6 +363,7 @@
 "Assets/Scripts/KeyEvent.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerKey.cs"
+"Assets/Scripts/PlayerMovement.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberExample.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberRenderer.cs"
 "Assets/SpriteNumberRenderer/Scripts/SpriteNumber.cs"

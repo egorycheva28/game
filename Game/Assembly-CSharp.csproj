@@ -72,6 +72,7 @@
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\DoorEvent.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
   </ItemGroup>
   <ItemGroup>
