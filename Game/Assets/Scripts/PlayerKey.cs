@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerKey : MonoBehaviour
 {
     [SerializeField] KeyCode PickUp;
+    public Door _Doorr;
 
     void Update()
     {
@@ -23,6 +24,7 @@ public class PlayerKey : MonoBehaviour
             {
                 if (Input.GetKey(PickUp))
                 {
+                    _Doorr.can_be_opened_now = true;
                     hit.collider.gameObject.GetComponent<DoorEvent>().TryOpen();
                 }
             }

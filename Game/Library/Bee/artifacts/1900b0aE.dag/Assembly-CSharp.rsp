@@ -358,6 +358,7 @@
 "Assets/FurnishedCabin/Scripts/Player/PlayerMove.cs"
 "Assets/Scripts/CameraCoontroller.cs"
 "Assets/Scripts/CodeLock.cs"
+"Assets/Scripts/Codelock_password_element.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/DoorEvent.cs"
 "Assets/Scripts/KeyEvent.cs"
