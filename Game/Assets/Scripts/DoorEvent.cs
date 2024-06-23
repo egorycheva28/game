@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class DoorEvent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Animator DoorAnimator;
+    [SerializeField] bool Closed;
 
-    // Update is called once per frame
-    void Update()
+    public void TryOpen()
     {
-        
+        if (!Closed)
+        {
+            if (DoorAnimator.GetBool("interact") == false)
+            {
+                DoorAnimator.SetBool("interact", true);
+            }
+            else
+            {
+                DoorAnimator.SetBool("interact", false);
+            }
+        }
+    }
+    public void Unlock()
+    {
+        Closed = false;
     }
 }

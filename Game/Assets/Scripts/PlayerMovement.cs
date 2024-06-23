@@ -1,3 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 2.0f;       // Высота прыжка
     public float gravity = -9.81f;        // Гравитация
     public float crouchHeight = 1.0f;     // Высота при приседании
+    public float maxYAngle = 90.0f; // Максимальный угол вращения по вертикали
 
     private CharacterController characterController;
     private Transform playerCameraTransform;
@@ -18,11 +23,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;  // Закрыть курсор в центре экрана
+        //Cursor.lockState = CursorLockMode.Locked;  // Закрыть курсор в центре экрана
         characterController = GetComponent<CharacterController>();  // Получаем компонент CharacterController
-        playerCameraTransform = transform.Find("PlayerCamera");  // Ищем камеру как дочерний объект
+        //playerCameraTransform = transform.Find("PlayerCamera");  // Ищем камеру как дочерний объект
 
-        if (characterController == null)
+        /*if (characterController == null)
         {
             Debug.LogError("CharacterController не найден на объекте Player. Пожалуйста, добавьте его.");
         }
@@ -30,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         if (playerCameraTransform == null)
         {
             Debug.LogError("PlayerCamera не найден как дочерний объект Player. Пожалуйста, убедитесь, что камера названа правильно.");
-        }
+        }*/
 
         originalHeight = characterController.height;  // Сохраняем исходную высоту капсулы
     }

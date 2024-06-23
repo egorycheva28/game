@@ -1,43 +1,27 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Codelock_password_element.cs">
     <Files>
-      <File FileName="Assets/Scripts/Door.cs" Line="202" Column="18" />
+      <File FileName="Assets/Scripts/Door.cs" Line="229" Column="2" />
       <File FileName="Assets/Scripts/menu_script.cs" />
       <File FileName="Assets/Scripts/TextSwitcher.cs" />
       <File FileName="Assets/Scripts/PlayerController.cs" />
       <File FileName="Assets/Scripts/TextSwitcherController.cs" />
       <File FileName="Assets/Scripts/Take.cs" />
-      <File FileName="Assets/Scripts/CameraCoontroller.cs" />
-      <File FileName="Assets/Scripts/KeyEvent.cs" />
-      <File FileName="Assets/Scripts/PlayerKey.cs" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="22" Column="31" />
-      <File FileName="Assets/Scripts/SC_FPSController.cs" Line="75" Column="1" />
-      <File FileName="Assets/Scripts/Inventory.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/CameraCoontroller.cs" Line="26" Column="2" />
+      <File FileName="Assets/Scripts/KeyEvent.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/PlayerKey.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="89" Column="1" />
+      <File FileName="Assets/Scripts/SC_FPSController.cs" />
+      <File FileName="Assets/Scripts/Inventory.cs" />
       <File FileName="Assets/Scripts/Item.cs" Line="5" Column="18" />
+      <File FileName="Assets/Scripts/DoorEvent.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/CodeLock.cs" Line="64" Column="2" />
+      <File FileName="Assets/Scripts/Codelock_password_element.cs" Line="17" Column="2" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Item.cs" selected="True" />
-              </Node>
-              <Node name="TakeObject" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b1e7cec6-8966-47b2-a280-aa7d5f5acffa" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2640389-588c-4de2-91ad-ac70eb1d7c23" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

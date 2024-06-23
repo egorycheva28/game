@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/TextSwitcherController.cs" />
     <Compile Include="Assets/SpriteNumberRenderer/Scripts/SpriteNumber.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/MinAttribute.cs" />
+    <Compile Include="Assets/Scripts/Codelock_password_element.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingContext.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/GetSetAttribute.cs" />
