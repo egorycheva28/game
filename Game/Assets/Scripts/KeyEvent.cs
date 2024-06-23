@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class KeyEvent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] DoorEvent Door;
+    public void UnlockDoor()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Door.Unlock();
+        Destroy(gameObject);
     }
 }
+

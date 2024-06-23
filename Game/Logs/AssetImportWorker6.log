@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2022.3/staging' branch; Version is '2022.3.34f1 (4886f5360533) revision 4753141'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16110 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Users\egorm\AppData\Local\Temp\2022.3.31f1\Editor\Unity.exe
+C:\Users\egorm\AppData\Local\Temp\2022.3.34f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker6
 -projectPath
-C:/Users/egorm/AppData/Local/Temp/game/Game
+C:/Users/egorm/AppData/Local/Temp/game3/game/Game
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-51333
-Successfully changed project path to: C:/Users/egorm/AppData/Local/Temp/game/Game
-C:/Users/egorm/AppData/Local/Temp/game/Game
+12800
+Successfully changed project path to: C:/Users/egorm/AppData/Local/Temp/game3/game/Game
+C:/Users/egorm/AppData/Local/Temp/game3/game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/egorm/AppData/Local/Temp/game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20512] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1612614757 [EditorId] 1612614757 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [37692] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1295194333 [EditorId] 1295194333 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20512] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1612614757 [EditorId] 1612614757 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37692] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1295194333 [EditorId] 1295194333 [Version] 1048832 [Id] WindowsEditor(7,Masha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
-[Subsystems] Discovering subsystems at path C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/egorm/AppData/Local/Temp/game/Game/Assets
+Initialize engine version: 2022.3.34f1 (4886f5360533)
+[Subsystems] Discovering subsystems at path C:/Users/egorm/AppData/Local/Temp/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/egorm/AppData/Local/Temp/game3/game/Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,47 +67,47 @@ Direct3D:
     VRAM:     8055 MB
     Driver:   31.0.101.3358
 Initialize mono
-Mono path[0] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Mono path[0] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/egorm/AppData/Local/Temp/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/egorm/AppData/Local/Temp/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/egorm/AppData/Local/Temp/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004710 seconds.
-- Loaded All Assemblies, in  0.489 seconds
+Register platform support module: C:/Users/egorm/AppData/Local/Temp/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003553 seconds.
+- Loaded All Assemblies, in  0.244 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.316 seconds
-Domain Reload Profiling: 804ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (132ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (217ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (316ms)
+	FinalizeReload (194ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (248ms)
+		SetupLoadedEditorAssemblies (149ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (169ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,1080 +115,77 @@ Domain Reload Profiling: 804ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.242 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.429 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.350 seconds
-Domain Reload Profiling: 591ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 924ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (9ms)
-		LoadAssemblies (96ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (350ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (210ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (49.5 KB). Loaded Objects now: 503.
-Memory consumption went from 60.9 MB to 60.8 MB.
-Total: 2.147200 ms (FindLiveObjects: 0.034600 ms CreateObjectMapping: 0.003600 ms MarkObjects: 2.042100 ms  DeleteObjects: 0.065800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.219 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.363 seconds
-Domain Reload Profiling: 582ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (9ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (364ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (496ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (394ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (6.3 KB). Loaded Objects now: 501.
-Memory consumption went from 59.7 MB to 59.7 MB.
-Total: 2.117900 ms (FindLiveObjects: 0.034200 ms CreateObjectMapping: 0.004600 ms MarkObjects: 2.055200 ms  DeleteObjects: 0.022700 ms)
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (58.3 KB). Loaded Objects now: 3598.
+Memory consumption went from 131.8 MB to 131.7 MB.
+Total: 3.293000 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.891900 ms  DeleteObjects: 0.092900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 254913.998654 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Decals/BAZsVc1Lb2YKiB2dJ6LemRWCG (1).png
-  artifactKey: Guid(f632aecb7e14d904bb68db74ead2dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Decals/BAZsVc1Lb2YKiB2dJ6LemRWCG (1).png using Guid(f632aecb7e14d904bb68db74ead2dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cfe897028f625b94818757a03eb0e8fe') in 0.294058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Decals/m1Fh7Qf27JbyATvz96BnGriyu.png
-  artifactKey: Guid(dce6d135a871c6947a238e0fa913df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Decals/m1Fh7Qf27JbyATvz96BnGriyu.png using Guid(dce6d135a871c6947a238e0fa913df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1b8cb2a4e9e835f72e197269c135b5c4') in 0.021885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.750371 seconds.
-  path: Assets/DevDen Arch Viz Scotland/HDRI/Sky.mat
-  artifactKey: Guid(1b968943b3262304e99e3188b4645f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/HDRI/Sky.mat using Guid(1b968943b3262304e99e3188b4645f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '66dc56543cd190af55830140f4cd2bf3') in 0.354314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.801893 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/_palmd.mat
-  artifactKey: Guid(4259fe215453c0844873abb626adf2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/_palmd.mat using Guid(4259fe215453c0844873abb626adf2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e532fab495126a6df8ab5c8dd5271a78') in 0.040984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bed.mat
-  artifactKey: Guid(4ee8702e8f868b04b92185b1302489f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bed.mat using Guid(4ee8702e8f868b04b92185b1302489f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd13cbe3fcc3574e39cc45e54e7b5572b') in 0.507652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Book3.mat
-  artifactKey: Guid(4f0243cd9a037094ea9a7772c272ebf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Book3.mat using Guid(4f0243cd9a037094ea9a7772c272ebf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ddad6e0e0a40d6f81478c1e4c0f048d') in 0.016196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Apple2.mat
-  artifactKey: Guid(a473fc7ae93069148a7ad853fc568b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Apple2.mat using Guid(a473fc7ae93069148a7ad853fc568b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1563326b6fc8973ef2873f419e7e86af') in 0.017598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/book_7.mat
-  artifactKey: Guid(18f729c40b5d80240be0c7b991adc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/book_7.mat using Guid(18f729c40b5d80240be0c7b991adc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e1df938d3996645fcfc70f38b11892b7') in 0.024595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_6.mat
-  artifactKey: Guid(1850e8c638df8284dbe94937aabb172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_6.mat using Guid(1850e8c638df8284dbe94937aabb172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '585a3596cdf61186b0a0b90d9d1f165e') in 0.210235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_3.mat
-  artifactKey: Guid(a2cc096f80572084db785768f01d4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_3.mat using Guid(a2cc096f80572084db785768f01d4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd7eb47dfd27cc571f14bf5184818c530') in 0.141380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bathroom_wash.fbx
-  artifactKey: Guid(7877d90a28643d84292ab67b9e53f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bathroom_wash.fbx using Guid(7877d90a28643d84292ab67b9e53f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5f5fed7a38f3741777f7052e69a92b31') in 0.070801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bed_1.fbx
-  artifactKey: Guid(17833168c1a51de4fb2f3083e6430d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bed_1.fbx using Guid(17833168c1a51de4fb2f3083e6430d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6e4bdc085906212704f2df36d3b0c49c') in 0.329614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 59
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bathroom_wall.fbx
-  artifactKey: Guid(eb156a3b557260742b82a9e258564e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bathroom_wall.fbx using Guid(eb156a3b557260742b82a9e258564e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '103c3493a7caeecf362094a6bfa054a5') in 0.051058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Book4.mat
-  artifactKey: Guid(015fba4407f8dc745a9e0e9308a43699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Book4.mat using Guid(015fba4407f8dc745a9e0e9308a43699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37e3c54d61aadd0c5855367bb0782a04') in 0.012869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/coffeemachine.FBX
-  artifactKey: Guid(d2e7e05530c088141a07d766912532d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/coffeemachine.FBX using Guid(d2e7e05530c088141a07d766912532d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b09a18999c833f52f4aeab2a655ff4c1') in 0.030549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bed_lamp_glass1.mat
-  artifactKey: Guid(0476d91d11d6954499adc7d2a79ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bed_lamp_glass1.mat using Guid(0476d91d11d6954499adc7d2a79ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '239ee31d7923bcaa8e11b34dd8ddb2a2') in 0.248126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/balcony_chair1.mat
-  artifactKey: Guid(34bbb14a626283c4692c514dd36a6197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/balcony_chair1.mat using Guid(34bbb14a626283c4692c514dd36a6197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '81a341d21a9b5d4bd9eddc4485e4b0c3') in 0.054675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bathroom_floor3.mat
-  artifactKey: Guid(f8c17ff9f8feeb741aaeddeed04b5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bathroom_floor3.mat using Guid(f8c17ff9f8feeb741aaeddeed04b5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f381e8e69e5de44c1fc954f01a950408') in 0.211664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Book2.mat
-  artifactKey: Guid(32fea033c01d728428cb409f76ca5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Book2.mat using Guid(32fea033c01d728428cb409f76ca5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9f46d24ea20c86b21fbb3ecdb8e4cbdb') in 0.017073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/induction-hob.fbx
-  artifactKey: Guid(594976da481ac5a4e8c89fa01fdf7552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/induction-hob.fbx using Guid(594976da481ac5a4e8c89fa01fdf7552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7ed43b2fcb31c87338c46123d96977b4') in 0.053544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/chopping-board.fbx
-  artifactKey: Guid(dc86ba37921f2f84db4af4b03a904ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/chopping-board.fbx using Guid(dc86ba37921f2f84db4af4b03a904ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fa3f3e9c8fea00e8dadd60a18567fcd7') in 0.043066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/banana.mat
-  artifactKey: Guid(8929bd2b4cca4dd4b94e6a970891aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/banana.mat using Guid(8929bd2b4cca4dd4b94e6a970891aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '440fdb7c76a9f92ee874659c3d5829cd') in 0.024375 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_4.mat
-  artifactKey: Guid(f6e0176bdf7bb0846a325c1a94713751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_4.mat using Guid(f6e0176bdf7bb0846a325c1a94713751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9c42599cf70ce167c15b680fe7b1ab28') in 0.030393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Book1.mat
-  artifactKey: Guid(6ce0ad7ad0896064890bf95260413f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Book1.mat using Guid(6ce0ad7ad0896064890bf95260413f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b3bcff1248502705f1463eea9a3516bd') in 0.019521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/book_3.mat
-  artifactKey: Guid(ff4941dfe4324e6488a109f41b3bef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/book_3.mat using Guid(ff4941dfe4324e6488a109f41b3bef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c27d3ccdd65e02b4bf4ba84c78e09ad8') in 0.017046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/inner_wall.fbx
-  artifactKey: Guid(69de13019204ce644876c61b1c576d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/inner_wall.fbx using Guid(69de13019204ce644876c61b1c576d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a00a6adaa52540e2d1c8ba95f4c95e15') in 0.527553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bedroom_floor3.mat
-  artifactKey: Guid(3ba88002234dbb74996ea5fbf5aecea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bedroom_floor3.mat using Guid(3ba88002234dbb74996ea5fbf5aecea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '52a3ce51cc8e58770bc91eb8d78f992e') in 0.047236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/balcony_table_2.mat
-  artifactKey: Guid(36ad89314c505fd42a69c0399d23681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/balcony_table_2.mat using Guid(36ad89314c505fd42a69c0399d23681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b81a8e442448b00dc7e382e05973072b') in 0.053177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_3.obj
-  artifactKey: Guid(3b32450d8da8f6742814016fe54e02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_3.obj using Guid(3b32450d8da8f6742814016fe54e02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd495b709cdfc5162460dbd8a07aed444') in 0.033106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/kitchen_bottom.fbx
-  artifactKey: Guid(5953c93a3133177479d85c596497a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/kitchen_bottom.fbx using Guid(5953c93a3133177479d85c596497a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7a5835860d124a099066847dd365ee6e') in 0.594217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 395
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bedsider.fbx
-  artifactKey: Guid(71619e1f67dab42419b43f1c66eb1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedsider.fbx using Guid(71619e1f67dab42419b43f1c66eb1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5af781d1c74051df3b97dba09c14c689') in 0.058585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/Imac.fbx
-  artifactKey: Guid(5e3102b82b4c4fa409265189a5e031a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/Imac.fbx using Guid(5e3102b82b4c4fa409265189a5e031a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '10f6557dd2c7dc429ce772ced4170c7a') in 0.025802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/books.FBX
-  artifactKey: Guid(c3bd1f92f6c766841bf2fe0a1b78f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/books.FBX using Guid(c3bd1f92f6c766841bf2fe0a1b78f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '467ae9e8136e506573a4f139285ce03f') in 0.161291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 74
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/bedside_lamp1.fbx
-  artifactKey: Guid(1185fd0711949ee45be56a28ae19b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedside_lamp1.fbx using Guid(1185fd0711949ee45be56a28ae19b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '330a609f3fe9876cea20a0f2222976b5') in 0.077788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/Kettle.fbx
-  artifactKey: Guid(8c24fc02c1eb8fa418ce4f7838526d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/Kettle.fbx using Guid(8c24fc02c1eb8fa418ce4f7838526d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a933869d7e7715cb1945cde273e38ad') in 0.048176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/balcony_glass.mat
-  artifactKey: Guid(82dc864176c9fff478c9961c50d43a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/balcony_glass.mat using Guid(82dc864176c9fff478c9961c50d43a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '81b0069ff13c2e7410a7efcefd04301b') in 0.167450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/book_1.mat
-  artifactKey: Guid(32f8a599444ff4d469114073e0b7e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/book_1.mat using Guid(32f8a599444ff4d469114073e0b7e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ead7f18577c48671f3321fd93749ca31') in 0.023555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/chair_5.FBX
-  artifactKey: Guid(66ae150a3e9c1c548868196d0d702708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/chair_5.FBX using Guid(66ae150a3e9c1c548868196d0d702708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '11e2ec28611992f78a144822938dc70a') in 0.032903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/dinning_chair.fbx
-  artifactKey: Guid(553ffc2d668ea8f459d69e550553e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/dinning_chair.fbx using Guid(553ffc2d668ea8f459d69e550553e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fa90eddd63f8c9ecc93afb4171b6802a') in 0.107883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bed_sider.mat
-  artifactKey: Guid(821e9eda63b5a8a4cb0e09dabef40299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bed_sider.mat using Guid(821e9eda63b5a8a4cb0e09dabef40299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ed623c62db4fe83fbc25962509d4d17') in 0.027984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/books_seperae.fbx
-  artifactKey: Guid(fe3abcf47d965954683b4a41f5524204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/books_seperae.fbx using Guid(fe3abcf47d965954683b4a41f5524204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '52b9b519a222e4f5590ca06d576ccdb9') in 0.238850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 204
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_5.mat
-  artifactKey: Guid(658236e1d973a3c4cb49a2567f967d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/bedroom_Ceiling_5.mat using Guid(658236e1d973a3c4cb49a2567f967d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0b57a296c3b0801fa4d8ff1f6fd8f5fd') in 0.019503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/dish-rack.fbx
-  artifactKey: Guid(a694e5896203f12408a5a1439250a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/dish-rack.fbx using Guid(a694e5896203f12408a5a1439250a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '20c917c160050c65820ffaf75fb80530') in 0.027259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/kitchen_top.fbx
-  artifactKey: Guid(27ddc70cefba4cc458cd241b184ffd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/kitchen_top.fbx using Guid(27ddc70cefba4cc458cd241b184ffd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fd6da669dd465255ad8fdde65c9f7110') in 0.465889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 352
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/Kitchen_Cabinet_2.prefab
-  artifactKey: Guid(875665c3cd3f88f47baa5b60faed3228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Kitchen_Cabinet_2.prefab using Guid(875665c3cd3f88f47baa5b60faed3228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a2e9ffedbdb4cbdea17c42ebb1148769') in 0.175922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1334
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/Socket.prefab
-  artifactKey: Guid(21d1209ade882bf43aaaaed09cbed82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Socket.prefab using Guid(21d1209ade882bf43aaaaed09cbed82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f843ccec862a045953158054540f8b09') in 0.044096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/sofa_2.prefab
-  artifactKey: Guid(5a4dd325237877f4c8bbe3154a85557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/sofa_2.prefab using Guid(5a4dd325237877f4c8bbe3154a85557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8c6b939dab32dfcd62f8104f84fbeec9') in 0.058484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/shower.prefab
-  artifactKey: Guid(f6ce89d0a0202cd4795870877cbfd1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/shower.prefab using Guid(f6ce89d0a0202cd4795870877cbfd1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1922b5a1050c077c884d82f2e5d66912') in 0.029316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/knife-block.prefab
-  artifactKey: Guid(0bd00a6242f26af49b700471686f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/knife-block.prefab using Guid(0bd00a6242f26af49b700471686f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9e25e6eac63e1e04ec234551d6ca141c') in 0.032760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/dish-drainer.prefab
-  artifactKey: Guid(0bd813cfcf64f0b4b97b4522243adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/dish-drainer.prefab using Guid(0bd813cfcf64f0b4b97b4522243adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37574a37b98928f78e19259353a10612') in 0.068338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/dinning_table.prefab
-  artifactKey: Guid(b0a8444b77fff2440bf8288ec8b3ca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/dinning_table.prefab using Guid(b0a8444b77fff2440bf8288ec8b3ca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '497b2becb3606cead3e3ab56c7393c35') in 0.027914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/BathroomShelf.prefab
-  artifactKey: Guid(7fd5bfb3dec35694b82447ce0a322bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/BathroomShelf.prefab using Guid(7fd5bfb3dec35694b82447ce0a322bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '528660eee05e4131432cac17b532dfcb') in 0.018021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/LightTable06_1On.prefab
-  artifactKey: Guid(ca73d02057289d941805cce2bb0057df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/LightTable06_1On.prefab using Guid(ca73d02057289d941805cce2bb0057df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '373c22004ccc1bf4892801dd987fe975') in 0.144547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/low-plate_low-plate.prefab
-  artifactKey: Guid(faadbc6a5abddf84992cf974f4ac87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/low-plate_low-plate.prefab using Guid(faadbc6a5abddf84992cf974f4ac87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '051522a54f4ae070aa584f6b0e54e613') in 0.044159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/Magazine.prefab
-  artifactKey: Guid(cb0e7d89372305043aa8a7d1799bae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Magazine.prefab using Guid(cb0e7d89372305043aa8a7d1799bae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fb8216535f2bfd066154bc6b5efa049a') in 0.029253 seconds
+  Time since last request: 63374.329784 seconds.
+  path: Assets/Books/Prefabs/book_0001b.prefab
+  artifactKey: Guid(f9ec2f5b43ac0204199acdb66395048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/book_0001b.prefab using Guid(f9ec2f5b43ac0204199acdb66395048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38edc78f43cd65a89d393956c22fe168') in 0.136866 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab
-  artifactKey: Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab using Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fcf2f94d74f2a577eb5a015ba2738eef') in 0.055171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/bedside_table.prefab
-  artifactKey: Guid(e1a6d7c704984ea489daf67742f9f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/bedside_table.prefab using Guid(e1a6d7c704984ea489daf67742f9f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6b3cc3e72eb0c995c8bdc9f664bcec4d') in 0.024070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/bedsider.prefab
-  artifactKey: Guid(4087998df7fb3c34e9d974810c54d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/bedsider.prefab using Guid(4087998df7fb3c34e9d974810c54d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '48a652da52648fe618a4aeab0ad0c745') in 0.029229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/Shell.prefab
-  artifactKey: Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Shell.prefab using Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c69b901133b3abb788990a3ed4b24d57') in 0.161996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 98
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/CoffeeMachine.prefab
-  artifactKey: Guid(655fe15c7e05b1248a0d7e5b8ec6abff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/CoffeeMachine.prefab using Guid(655fe15c7e05b1248a0d7e5b8ec6abff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f69b4275473a712e0a41612389bf93f2') in 0.061617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/ceiling lamp.fbx
-  artifactKey: Guid(5fccfba66adf1cb4bbf889d7734fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/ceiling lamp.fbx using Guid(5fccfba66adf1cb4bbf889d7734fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '46b6fe3147418357df3b31017fff85e4') in 0.026127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/balcony_mat.prefab
-  artifactKey: Guid(7524d2804f70c4b44b7278329cfef4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/balcony_mat.prefab using Guid(7524d2804f70c4b44b7278329cfef4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '02a217aab4cfa29c53b6149ff3788d01') in 0.025901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/apple.mat
-  artifactKey: Guid(8204f22c4e0987a4cafd5ac5d7cdff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/apple.mat using Guid(8204f22c4e0987a4cafd5ac5d7cdff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a263eb27fe70b3b68beb574cdd3599d8') in 0.017597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/balcony_table.fbx
-  artifactKey: Guid(0848b1c1327424841a4333776fcbb942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/balcony_table.fbx using Guid(0848b1c1327424841a4333776fcbb942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '758aaf29ca927285cf9395fe52957c34') in 0.027721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Prefabs/AirConditioner.prefab
-  artifactKey: Guid(e00258eee5759444580d62beee4e7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Prefabs/AirConditioner.prefab using Guid(e00258eee5759444580d62beee4e7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7edb717186ef0a0594aa307b79ebca9d') in 0.096071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 17.141613 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/Lightmap-0_comp_dir.png
-  artifactKey: Guid(3ff8f563748e7f14a85135ab930d99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/Lightmap-0_comp_dir.png using Guid(3ff8f563748e7f14a85135ab930d99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0aa0a3a7ebf0e598362312f4704abcb2') in 0.271634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-3.exr
-  artifactKey: Guid(e085209a888fadd4c858e01b3cdf4200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-3.exr using Guid(e085209a888fadd4c858e01b3cdf4200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c0583d5031417b8659e0dc62f43a0867') in 1.451086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-8.exr
-  artifactKey: Guid(90cc3177637c91b4ea91ceecc145227f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-8.exr using Guid(90cc3177637c91b4ea91ceecc145227f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3bc8fce181c4b7c4114a479843dd3e15') in 1.536984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-4.exr
-  artifactKey: Guid(8aa0adae1747df24eba98e606e487c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Scenes/ArchViz/ReflectionProbe-4.exr using Guid(8aa0adae1747df24eba98e606e487c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f86d401bca7e2d1bd5cecabdab097c3c') in 0.032596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
