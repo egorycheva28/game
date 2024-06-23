@@ -80,6 +80,7 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
+    <Compile Include="Assets/Scripts/Inventory.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/EyeAdaptationModel.cs" />
     <Compile Include="Assets/Scripts/PlayerKey.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingModel.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingComponent.cs" />
     <Compile Include="Assets/Scripts/TextSwitcher.cs" />
     <Compile Include="Assets/FurnishedCabin/Scripts/MoveableObject.cs" />
+    <Compile Include="Assets/Scripts/Item.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/ColorGradingComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />

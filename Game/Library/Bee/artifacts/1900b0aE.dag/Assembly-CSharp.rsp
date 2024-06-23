@@ -410,6 +410,8 @@
 "Assets/Scripts/CodeLock.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/DoorEvent.cs"
+"Assets/Scripts/Inventory.cs"
+"Assets/Scripts/Item.cs"
 "Assets/Scripts/KeyEvent.cs"
 "Assets/Scripts/menu_script.cs"
 "Assets/Scripts/PlayerController.cs"
