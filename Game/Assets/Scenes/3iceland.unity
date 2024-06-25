@@ -4020,15 +4020,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1880695999298458335, guid: 65f92432ef24943589917a8c53e5c210, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2756.3433
+      value: 2743.06
       objectReference: {fileID: 0}
     - target: {fileID: 1880695999298458335, guid: 65f92432ef24943589917a8c53e5c210, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 101.67
+      value: 101.7
       objectReference: {fileID: 0}
     - target: {fileID: 1880695999298458335, guid: 65f92432ef24943589917a8c53e5c210, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2729.41
+      value: 2743.26
       objectReference: {fileID: 0}
     - target: {fileID: 1880695999298458335, guid: 65f92432ef24943589917a8c53e5c210, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28818,15 +28818,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8525628161358962780, guid: 0579d96e52e9e7843a6c880ce44856ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1854.0077
+      value: 1849.9
       objectReference: {fileID: 0}
     - target: {fileID: 8525628161358962780, guid: 0579d96e52e9e7843a6c880ce44856ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 76.37154
+      value: 76.9
       objectReference: {fileID: 0}
     - target: {fileID: 8525628161358962780, guid: 0579d96e52e9e7843a6c880ce44856ea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2497.9766
+      value: 2496.7
       objectReference: {fileID: 0}
     - target: {fileID: 8525628161358962780, guid: 0579d96e52e9e7843a6c880ce44856ea, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35185,7 +35185,7 @@ Transform:
   m_GameObject: {fileID: 1314683603}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.45130762, z: -0, w: 0.89236844}
-  m_LocalPosition: {x: 2133, y: 114.1, z: 2784}
+  m_LocalPosition: {x: 2133, y: 103.6, z: 2784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44233,11 +44233,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18104182bc3ec4a4aaf047c4db64e597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  open_type: 0
-  door_axis: 0
-  can_be_opened_now: 0
-  open_speed: 150
-  open_dist_or_angle: 140
+  open_type: 1
+  door_axis: 2
+  can_be_opened_now: 1
+  open_speed: 2
+  open_dist_or_angle: 0.3
   image: {fileID: 0}
 --- !u!1001 &1672879102
 PrefabInstance:
@@ -46319,7 +46319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdeb8f6f39d54deb9d481b598b25f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 100
+  walkingSpeed: 50
   runningSpeed: 11.5
   jumpSpeed: 8
   gravity: 20
@@ -46328,7 +46328,7 @@ MonoBehaviour:
   lookXLimit: 45
   canMove: 1
   crouchSpeed: 3.75
-  crouchHeight: 1
+  crouchHeight: 0.5
 --- !u!1001 &1794800353
 PrefabInstance:
   m_ObjectHideFlags: 0
