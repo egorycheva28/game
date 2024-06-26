@@ -16,7 +16,7 @@ public class Puzzle : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             move = true;
-            //mousePos = Input.mousePosition;
+            mousePos = Input.mousePosition;
 
             startPosX = mousePos.x - this.transform.localPosition.x;
             startPosY = mousePos.y - this.transform.localPosition.y;
@@ -42,7 +42,7 @@ public class Puzzle : MonoBehaviour
         {
             mousePos = Input.mousePosition;
             this.gameObject.transform.localPosition = new Vector2(mousePos.x, mousePos.y);
-            //this.gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);
+            this.gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);
         }
     }
 }

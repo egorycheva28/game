@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WinScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TakeKeyBath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TakeKeyBath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SC_FPSController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TakeKeyBath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TakeKeyBath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\CameraCoontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,14 +89,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzle.cs",
               "RelativeToolTip": "Assets\\Scripts\\Puzzle.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T08:50:20.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TakeKeyBath.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TakeKeyBath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TakeKeyBath.cs",
@@ -109,15 +109,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SC_FPSController.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SC_FPSController.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SC_FPSController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAKAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAACQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:34:28.33Z"
+              "WhenOpened": "2024-06-24T15:34:28.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Key
   - Door
+  - BlockForeground
   layers:
   - Default
   - TransparentFX
