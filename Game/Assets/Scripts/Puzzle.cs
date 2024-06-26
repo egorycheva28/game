@@ -41,7 +41,7 @@ public class Puzzle : MonoBehaviour
         if (move == true && finish == false)
         {
             mousePos = Input.mousePosition;
-            this.gameObject.transform.localPosition = new Vector2(mousePos.x, mousePos.y);
+            //this.gameObject.transform.localPosition = new Vector2(mousePos.x, mousePos.y);
             this.gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);
         }
     }
