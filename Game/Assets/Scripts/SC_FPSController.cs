@@ -108,8 +108,8 @@ public class SC_FPSController : MonoBehaviour
         normalHeight = characterController.height;
 
         // Lock cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     void Update()

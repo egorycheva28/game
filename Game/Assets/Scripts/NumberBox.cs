@@ -7,7 +7,7 @@ public class NumberBox : MonoBehaviour
 {
     public int index = 0;
     int x = 0;
-    int y = 0;
+    int y = 0;  
 
     private Action<int, int> swapFunc = null;
 

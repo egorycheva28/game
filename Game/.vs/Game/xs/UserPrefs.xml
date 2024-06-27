@@ -1,31 +1,41 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Puzzle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/box_game/BoxPlayer.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" IsPinned="True" />
-      <File FileName="Assets/Scripts/TextSwitcher.cs" IsPinned="True" />
-      <File FileName="Assets/Scripts/menu_script.cs" IsPinned="True" />
-      <File FileName="Assets/Scripts/Door.cs" Line="239" Column="1" />
-      <File FileName="Assets/Scripts/TextSwitcherController.cs" />
-      <File FileName="Assets/Scripts/Take.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CameraCoontroller.cs" Line="26" Column="2" />
-      <File FileName="Assets/Scripts/KeyEvent.cs" Line="13" Column="2" />
-      <File FileName="Assets/Scripts/PlayerKey.cs" Line="34" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="16" Column="28" />
-      <File FileName="Assets/Scripts/SC_FPSController.cs" Line="182" Column="1" />
-      <File FileName="Assets/Scripts/Inventory.cs" Line="323" Column="27" />
-      <File FileName="Assets/Scripts/Item.cs" Line="5" Column="18" />
-      <File FileName="Assets/Scripts/DoorEvent.cs" Line="28" Column="2" />
-      <File FileName="Assets/Scripts/CodeLock.cs" Line="64" Column="2" />
-      <File FileName="Assets/Scripts/Codelock_password_element.cs" Line="17" Column="2" />
-      <File FileName="Assets/ScriptableObject/Sources/Item.cs" Line="5" Column="58" />
-      <File FileName="Assets/Scripts/TakeKeyBath.cs" Line="20" Column="14" />
-      <File FileName="Assets/Scripts/NumberBox.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/Puzzle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/TextSwitcher.cs" Line="10" Column="23" IsPinned="True" />
+      <File FileName="Assets/Scripts/menu_script.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/TakeKeyBath.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/Puzzle.cs" Line="503" Column="1" />
+      <File FileName="Assets/Scripts/Door.cs" />
+      <File FileName="Assets/Scripts/NumberBox.cs" Line="10" Column="17" />
+      <File FileName="Assets/Scripts/TextSwitcherController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Take.cs" />
+      <File FileName="Assets/Scripts/CameraCoontroller.cs" />
+      <File FileName="Assets/Scripts/KeyEvent.cs" />
+      <File FileName="Assets/Scripts/PlayerKey.cs" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SC_FPSController.cs" Line="158" Column="64" />
+      <File FileName="Assets/Scripts/Item.cs" />
+      <File FileName="Assets/Scripts/DoorEvent.cs" />
+      <File FileName="Assets/Scripts/CodeLock.cs" />
+      <File FileName="Assets/Scripts/Codelock_password_element.cs" />
+      <File FileName="Assets/Scripts/ItemScriptableObject.cs" />
+      <File FileName="Assets/Scripts/InventoryManager.cs" Line="62" Column="41" />
+      <File FileName="Assets/Scripts/InventorySlot.cs" Line="1" Column="1" />
+      <File FileName="Assets/XEntity GameKit/Scripts/Inventory and Item System/ItemContainer.cs" Line="1" Column="1" />
+      <File FileName="Assets/XEntity GameKit/Scripts/Inventory and Item System/Interactor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="236" Column="1" />
+      <File FileName="Assets/Scripts/pickingUp/Highlight.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/pickingUp/PickableObject.cs" Line="23" Column="2" />
+      <File FileName="Assets/Scripts/pickingUp/IPickable.cs" Line="10" Column="2" />
+      <File FileName="Assets/Scripts/pickingUp/PickableItem.cs" Line="27" Column="2" />
+      <File FileName="Assets/Scripts/SceneSwitcher.cs" Line="6" Column="28" />
+      <File FileName="Assets/Scripts/box_game/BoxPlayer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2640389-588c-4de2-91ad-ac70eb1d7c23" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="063761f2-3bca-43ac-b9a5-634587541c5b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
