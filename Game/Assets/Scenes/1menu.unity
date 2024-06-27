@@ -695,14 +695,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 367673414}
-        m_TargetAssemblyTypeName: menu_script, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+      - m_Target: {fileID: 1982256248}
+        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
+        m_MethodName: scenLoad
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1306,6 +1306,7 @@ GameObject:
   - component: {fileID: 1982256247}
   - component: {fileID: 1982256246}
   - component: {fileID: 1982256245}
+  - component: {fileID: 1982256248}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1387,6 +1388,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982256248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982256244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135b98d5528adf440b0dedafe985acb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2034056758
 GameObject:
   m_ObjectHideFlags: 0

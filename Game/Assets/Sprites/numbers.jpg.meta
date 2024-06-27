@@ -97,11 +97,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: numbers_0
+      name: numbers_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 600
+        y: 0
         width: 200
         height: 200
       alignment: 0
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      numbers_0: 1641703090
+      numbers_12: 1641703090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
