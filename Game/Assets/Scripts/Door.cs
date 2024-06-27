@@ -235,5 +235,12 @@ public class Door : MonoBehaviour
     {
         open_close_ON = false;
     }
+
+    // Метод для открытия двери
+    public void OpenDoor()
+    {
+        can_be_opened_now = true;
+        Debug.Log("Door can now be opened.");
+    }
 }
 

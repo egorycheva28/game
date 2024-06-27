@@ -1,61 +1,113 @@
+using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class CodeLock : MonoBehaviour
+public class KeyPadScript1 : MonoBehaviour
 {
-    public Codelock_password_element[] _Codelock_password_element_AR;
-    [HideInInspector] public int[] numbers_AR;
-    private char[] password_chars_AR;
-    [HideInInspector] public string password;
-    public Material[] numbers_materials_AR;
+    public int[] Code;
+    public string CodeLength;
+    private int Presses;
+    private string result;
 
-    public Transform camera_TR;
-    private RaycastHit hit;
-    public Door _Door;
-    string entered_password;
-    public LayerMask ray_layermask;
+    private string ScreenText;
+    public GameObject Screen;
+    public string Correct;
+    private int reset;
 
-    IEnumerator Start()
+    public Door door; // Добавляем ссылку на объект двери 
+
+    void Start()
     {
-        numbers_AR = new int[_Codelock_password_element_AR.Length];
-        password_chars_AR = new char[_Codelock_password_element_AR.Length];
-        yield return new WaitForSeconds(1f);
-        int i = 0;
-        while (i < _Codelock_password_element_AR.Length)
+        if (string.IsNullOrEmpty(CodeLength))
         {
-            numbers_AR[i] = _Codelock_password_element_AR[i].current_number;
-            string st = numbers_AR[i].ToString();
-            password_chars_AR[i] = st.ToCharArray()[0];
-            i++;
+            Debug.LogError("CodeLength is not set!");
+            return;
         }
-        password=string.Join(null, password_chars_AR);
-        entered_password = "0000";
+
+        Code = new int[Convert.ToInt32(CodeLength)];
+        Presses = 0;
+
+        if (Screen == null)
+        {
+            Debug.LogError("Screen GameObject is not assigned!");
+            return;
+        }
+
+        if (Screen.GetComponent<TextMeshPro>() == null)
+        {
+            Debug.LogError("Screen GameObject does not have a TextMeshPro component!");
+            return;
+        }
+
+        if (door == null)
+        {
+            Debug.LogError("Door object is not assigned!");
+            return;
+        }
     }
 
-    
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Screen == null)
         {
-            if(Physics.Raycast(camera_TR.position, camera_TR.TransformDirection(Vector3.forward),out hit,5,ray_layermask))
-            {
-                if(hit.collider.tag=="Codelock_button")
-                {
-                    if(hit.collider.name!="Enter")
-                    {
-                        entered_password = entered_password.Remove(0, 1);
-                        entered_password = entered_password.Insert(password.Length - 1, hit.collider.name);
+            return;
+        }
 
+        ScreenText = string.Join("", Code.Select(i => i.ToString()).ToArray());
+        Screen.GetComponent<TextMeshPro>().text = ScreenText;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 10))
+            {
+                if (hit.transform == null)
+                {
+                    Debug.Log("No object hit by ray.");
+                    return;
+                }
+
+                if (Presses < Convert.ToInt32(CodeLength))
+                {
+                    if (hit.transform.gameObject.name == "Base") { }
+                    else
+                    {
+                        Debug.Log(hit.transform.gameObject.name);
+                        Number numberComponent = hit.transform.gameObject.GetComponent<Number>();
+                        if (numberComponent == null)
+                        {
+                            Debug.LogError("Number component not found on " + hit.transform.gameObject.name);
+                            return;
+                        }
+
+                        Code[Presses] = numberComponent.number;
+                        Presses += 1;
+                    }
+                }
+
+                if (Presses == Convert.ToInt32(CodeLength))
+                {
+                    result = string.Join("", Code.Select(i => i.ToString()).ToArray());
+                    Debug.Log("Entered Code: " + result);
+                    if (Correct == result)
+                    {
+                        Debug.Log("The Code Entered Is Correct");
+                        door.OpenDoor(); // Вызов метода открытия двери 
                     }
                     else
                     {
-                        if(entered_password==password)
+                        Debug.Log("The Code Entered Is Incorrect");
+                        Presses = 0;
+                        reset = Convert.ToInt32(CodeLength) - 1;
+                        do
                         {
-                            _Door.can_be_opened_now = true;
-                            Destroy(this);
-                        }
-                        
+                            Code[reset] = 0;
+                            reset -= 1;
+                        } while (reset > -1);
                     }
                 }
             }

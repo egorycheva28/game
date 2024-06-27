@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,4 +14,4 @@ public class Codelock_password_element : MonoBehaviour
     }
 
     
-}
+}*/
