@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Key
   - Door
+  - Barrel
+  - flower
   layers:
   - Default
   - TransparentFX

@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; // Добавьте эту строку для использования TMP элементов
-using UnityEngine.UI; // Добавьте эту строку для использования UI элементов
+using TMPro; // Для использования TMP элементов
+using UnityEngine.UI; // Для использования UI элементов
 
 public class NPC_Task : MonoBehaviour
 {
@@ -10,7 +10,11 @@ public class NPC_Task : MonoBehaviour
     public GameObject Dialog1;
     public TMP_InputField AnswerInputField; // Поле для ввода ответа
     public Button SubmitButton; // Кнопка для подтверждения ответа
+    public Button ThinkButton; // Кнопка для продолжения без отображения книги
+    public GameObject Book; // Объект книги
     public string correctAnswer; // Правильный ответ на загадку
+    private bool dialogCompleted = false; // Флаг для отслеживания завершенного диалога
+    private bool puzzleSolved = false; // Флаг для отслеживания правильного ответа на загадку
 
     // Use this for initialization
     void Start()
@@ -20,13 +24,17 @@ public class NPC_Task : MonoBehaviour
             Debug.LogError("Dialog1 is not assigned.");
         }
 
-        if (AnswerInputField == null || SubmitButton == null)
+        if (AnswerInputField == null || SubmitButton == null || ThinkButton == null || Book == null)
         {
-            Debug.LogError("InputField or SubmitButton is not assigned.");
+            Debug.LogError("One or more UI elements are not assigned.");
         }
 
-        // Добавление слушателя для кнопки
+        // Добавление слушателей для кнопок
         SubmitButton.onClick.AddListener(CheckAnswer);
+        ThinkButton.onClick.AddListener(Think);
+
+        // Initially hide the book
+        Book.SetActive(false);
     }
 
     // Update is called once per frame
@@ -40,7 +48,7 @@ public class NPC_Task : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && !dialogCompleted)
         {
             StartDialog();
         }
@@ -50,6 +58,9 @@ public class NPC_Task : MonoBehaviour
     {
         Time.timeScale = 0;
         Dialog1.SetActive(true);
+        AnswerInputField.gameObject.SetActive(!puzzleSolved);
+        SubmitButton.gameObject.SetActive(!puzzleSolved);
+        ThinkButton.gameObject.SetActive(!puzzleSolved);
     }
 
     private void EndCurrentDialog()
@@ -64,15 +75,24 @@ public class NPC_Task : MonoBehaviour
         if (AnswerInputField.text.Equals(correctAnswer, System.StringComparison.OrdinalIgnoreCase))
         {
             Debug.Log("Правильный ответ!");
-            // Действие при правильном ответе
+            // Показать книгу
+            Book.SetActive(true);
+            // Закрыть диалог
             EndCurrentDialog();
-            AnswerInputField.gameObject.SetActive(false);
-            SubmitButton.gameObject.SetActive(false);
+            // Установить флаг завершенного диалога
+            dialogCompleted = true;
+            puzzleSolved = true;
         }
         else
         {
             Debug.Log("Неправильный ответ. Попробуйте еще раз.");
             // Действие при неправильном ответе
         }
+    }
+
+    private void Think()
+    {
+        Debug.Log("Подумать ещё.");
+        EndCurrentDialog();
     }
 }

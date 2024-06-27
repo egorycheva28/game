@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Добавьте эту строку для использования UI элементов
-using TMPro; // Добавьте эту строку для использования TMP элементов
-using UnityEngine.EventSystems;
+using UnityEngine.UI; // Для использования UI элементов
+using TMPro; // Для использования TMP элементов
+using UnityEngine.EventSystems; // Для использования EventSystem
 
 public class Dialog_NextClick : MonoBehaviour
 {
@@ -11,14 +11,15 @@ public class Dialog_NextClick : MonoBehaviour
     public GameObject Text2;
     public TMP_InputField AnswerInputField;
     public Button SubmitButton;
+    public Button ThinkButton;
     private bool isText1 = true;
     public NPC_Task npc_taskScript;
 
     // Use this for initialization
     void Start()
     {
-        // Ensure Text1, Text2, AnswerInputField and SubmitButton are initialized properly
-        if (Text1 == null || Text2 == null || AnswerInputField == null || SubmitButton == null)
+        // Ensure Text1, Text2, AnswerInputField, SubmitButton, and ThinkButton are initialized properly
+        if (Text1 == null || Text2 == null || AnswerInputField == null || SubmitButton == null || ThinkButton == null)
         {
             Debug.LogError("One or more UI elements are not assigned.");
         }
@@ -36,6 +37,7 @@ public class Dialog_NextClick : MonoBehaviour
         // Initially hide AnswerInputField and SubmitButton
         AnswerInputField.gameObject.SetActive(false);
         SubmitButton.gameObject.SetActive(false);
+        ThinkButton.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -64,6 +66,7 @@ public class Dialog_NextClick : MonoBehaviour
             Text2.SetActive(false);
             AnswerInputField.gameObject.SetActive(false);
             SubmitButton.gameObject.SetActive(false);
+            ThinkButton.gameObject.SetActive(false);
         }
         else
         {
@@ -71,6 +74,7 @@ public class Dialog_NextClick : MonoBehaviour
             Text2.SetActive(true);
             AnswerInputField.gameObject.SetActive(true);
             SubmitButton.gameObject.SetActive(true);
+            ThinkButton.gameObject.SetActive(true);
         }
     }
 }
