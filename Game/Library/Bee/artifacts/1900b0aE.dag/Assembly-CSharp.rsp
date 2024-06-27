@@ -427,6 +427,7 @@
 "Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Scripts/box_game/Activator.cs"
 "Assets/Scripts/box_game/BoxPlayer.cs"
 "Assets/Scripts/CameraCoontroller.cs"
 "Assets/Scripts/CodeLock.cs"
