@@ -9,6 +9,7 @@ public class WinScript : MonoBehaviour
     public GameObject myPuzzl;//Родительский объект, содержащий все элементы пазла 
     public GameObject myPanel;//Панель с пазлом
     public GameObject winPanel;//Панель победы
+    public GameObject arrow;
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class WinScript : MonoBehaviour
         {
             myPanel.SetActive(false);//Скрываем панель с пазлом
             winPanel.SetActive(true);//Показываем панель победы
+            arrow.SetActive(true);
         }
     }
 
