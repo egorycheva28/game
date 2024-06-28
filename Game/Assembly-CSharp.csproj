@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Codelock_password_element.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\ForCheck.cs" />
     <Compile Include="Assets\KeyPad\Number.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Scripts\CameraCoontroller.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Assets\Scripts\DoorEvent.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\Scripts\KeyPadScript1.cs" />
     <Compile Include="Assets\Scripts\menu_script.cs" />

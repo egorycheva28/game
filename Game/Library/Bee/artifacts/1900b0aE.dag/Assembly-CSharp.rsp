@@ -426,6 +426,8 @@
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/Door2.cs"
 "Assets/Scripts/DoorEvent.cs"
+"Assets/Scripts/DragAndDrop.cs"
+"Assets/Scripts/ForCheck.cs"
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/KeyContoller.cs"
 "Assets/Scripts/KeyEvent.cs"
