@@ -94,10 +94,12 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\TDControl.cs" />
+    <Compile Include="Assets\Scripts\Door2.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\Lighthouse.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Scripts\TVManager.cs" />
+    <Compile Include="Assets\Scripts\KeyContoller.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs" />
