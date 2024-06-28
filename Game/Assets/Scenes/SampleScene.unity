@@ -41052,7 +41052,7 @@ MonoBehaviour:
   flowers:
   - {fileID: 1488748919}
   - {fileID: 600662417}
-  - {fileID: 5480129846789898976, guid: 177a552a5abf20f48af6c88143fb8e59, type: 3}
+  - {fileID: 2048725863}
   bookObject: {fileID: 1052199285}
   threshold: 0.5
 --- !u!65 &2123007662

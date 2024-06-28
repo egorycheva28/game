@@ -153,6 +153,7 @@
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\Scripts\KeyPadScript1.cs" />
     <Compile Include="Assets\Scripts\menu_script.cs" />
+    <Compile Include="Assets\Scripts\PuzzleCopy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />

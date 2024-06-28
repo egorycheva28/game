@@ -446,6 +446,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Puzzl.cs"
 "Assets/Scripts/Puzzle.cs"
+"Assets/Scripts/PuzzleCopy.cs"
 "Assets/Scripts/Scenes.cs"
 "Assets/Scripts/SC_FPSController.cs"
 "Assets/Scripts/StaticData.cs"

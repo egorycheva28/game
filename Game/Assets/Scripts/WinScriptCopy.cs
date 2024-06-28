@@ -14,6 +14,7 @@ public class WinScriptCopy : MonoBehaviour
     void Start()
     {
         fullElement = myPuzzl.transform.childCount;//Получаем кол-во элементов пазла
+        myElement = 0;
     }
 
 
