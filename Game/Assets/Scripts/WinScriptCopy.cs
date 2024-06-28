@@ -24,7 +24,7 @@ public class WinScriptCopy : MonoBehaviour
         {
             myPanel.SetActive(false);//Скрываем панель с пазлом
             winPanel.SetActive(true);//Показываем панель победы
-            StaticData.canTakeFlower1 = true;
+            StaticData.canTakeFlower2 = true;
             //arrow.SetActive(true);
         }
         else

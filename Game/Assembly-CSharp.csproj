@@ -98,6 +98,7 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\TDControl.cs" />
+    <Compile Include="Assets\Scripts\TriggerPanelController.cs" />
     <Compile Include="Assets\Scripts\Door2.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\Lighthouse.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Scripts\BoxPlayerCopy.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
+    <Compile Include="Assets\Scripts\Flowerss.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Scripts\TaskWoman.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
