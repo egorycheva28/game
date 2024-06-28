@@ -1,19 +1,42 @@
 using UnityEngine;
 public class TriggerZone : MonoBehaviour
 {
-    public Canvas canvasToShow;  // Ссылка на канвас, который нужно показать
+    public GameObject panel;  // Ссылка на GameObject вашей Panel
+    void Start()
+    {
+        if (panel == null)
+        {
+            Debug.LogError("Panel is not assigned.");
+        }
+        else
+        {
+            panel.SetActive(false);  // Изначально скрываем панель
+        }
+    }
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        Debug.Log("OnTriggerEnter called with " + other.gameObject.name);
+        if (other.CompareTag("Player"))  // Предполагается, что игрок имеет тег "Player"
         {
-            canvasToShow.enabled = true;
+            ShowPanel();
         }
     }
     void OnTriggerExit(Collider other)
     {
+        Debug.Log("OnTriggerExit called with " + other.gameObject.name);
         if (other.CompareTag("Player"))
         {
-            canvasToShow.enabled = false;
+            HidePanel();
         }
+    }
+    void ShowPanel()
+    {
+        Debug.Log("Showing Panel");
+        panel.SetActive(true);  // Включаем панель
+    }
+    void HidePanel()
+    {
+        Debug.Log("Hiding Panel");
+        panel.SetActive(false);  // Отключаем панель    
     }
 }
