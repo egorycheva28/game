@@ -447,6 +447,7 @@
 "Assets/Scripts/TakeKeyBath.cs"
 "Assets/Scripts/TaskWoman.cs"
 "Assets/Scripts/TextSwitcher.cs"
+"Assets/Scripts/TransitionTrigger.cs"
 "Assets/Scripts/TVManager.cs"
 "Assets/Scripts/WinScript.cs"
 "Assets/Scripts/WomanDialog.cs"

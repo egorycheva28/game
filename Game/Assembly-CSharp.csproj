@@ -105,6 +105,7 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Scripts\TransitionTrigger.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\NVWaterShaders.cs" />

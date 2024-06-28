@@ -10,6 +10,7 @@ public class Puzzl : MonoBehaviour
 
     [SerializeField] GameObject buttonback;
 
+    public Door door;
 
     public NumberBox[,] boxes = new NumberBox[4, 4];
 

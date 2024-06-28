@@ -10,6 +10,7 @@ public class Puzzle : MonoBehaviour
     float startPosY;
     public GameObject form;
     bool finish;
+   
 
     void OnMouseDown()
     {
@@ -32,6 +33,7 @@ public class Puzzle : MonoBehaviour
         {
             this.transform.position=new Vector2(form.transform.position.x,form.transform.position.y);
             finish = true;
+
             WinScript.AddElement();
         }
     }
