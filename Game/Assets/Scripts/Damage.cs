@@ -5,22 +5,33 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public GameObject item;
-    public GameObject box;
-    public float prob = 25;
-    float rnd;
+
+    public  GameObject itemPrefab;  // Префаб предмета, который выпадет
+
+    public GameObject box;         // Объект сундука
+
+    public float dropProbability = 25f;  // Вероятность выпадения предмета в процентах
+
+    private string bookTag = "exe";  // Тег для книги
 
     private void OnMouseDown()
     {
-        rnd = Random.Range(0, 100);
-        if (rnd<=prob)
+        // Поиск книги по тегу
+        GameObject book = GameObject.FindGameObjectWithTag(bookTag);
+        if (book != null)
         {
-            GameObject Item = Instantiate(item, transform.position, Quaternion.identity);
-            Destroy(box);
-        }
-        else
-        {
-            Destroy(box); 
+            Take bookScript = book.GetComponent<Take>();
+            // Проверка, находится ли книга в руках игрока
+            if (bookScript != null && bookScript.IsHeld())
+            {
+                float randomValue = Random.Range(0f, 100f);
+                if (randomValue <= dropProbability)
+                {
+                    Instantiate(itemPrefab, transform.position, Quaternion.identity);
+                }
+                Destroy(box);
+            }
         }
     }
 }
+

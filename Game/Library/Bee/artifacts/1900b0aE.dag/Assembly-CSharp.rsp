@@ -376,6 +376,7 @@
 "Assets/Scripts/PlayerKey.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SC_FPSController.cs"
+"Assets/Scripts/Take.cs"
 "Assets/Scripts/TaskWoman.cs"
 "Assets/Scripts/Trig.cs"
 "Assets/Scripts/TVManager.cs"
