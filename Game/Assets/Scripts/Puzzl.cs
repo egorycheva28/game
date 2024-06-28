@@ -22,7 +22,7 @@ public class Puzzl : MonoBehaviour
     {
         winPanel.SetActive(false);  // Скрываем панель победы при старте
         Init();
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 999; i++)
         {
             Shuffle();
         }

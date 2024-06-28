@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TriggerPanelController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TriggerPanelController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Door2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,11 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TriggerZone.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TriggerZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone.cs",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ManDialog.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\ManDialog.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManDialog.cs",
@@ -144,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Flowerss.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Flowerss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Flowerss.cs",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TriggerPanelController.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TriggerPanelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerPanelController.cs",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TextSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TextSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TextSwitcher.cs",
@@ -196,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PuzzleCopy.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\PuzzleCopy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleCopy.cs",
@@ -209,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ManTask.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\ManTask.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManTask.cs",
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Flowers.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Flowers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Flowers.cs",
@@ -235,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BoxPlayerCopy.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayerCopy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoxPlayerCopy.cs",
@@ -248,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WinScriptCopy.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScriptCopy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinScriptCopy.cs",
@@ -274,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Puzzle.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle.cs",
@@ -287,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DoorCopy.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorCopy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorCopy.cs",
@@ -300,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StaticData.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\StaticData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StaticData.cs",
@@ -352,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "For Check.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\For Check.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\For Check.cs",
@@ -378,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Door2.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Door2.cs",
@@ -391,13 +391,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "Puzzl.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzl.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs",
               "RelativeToolTip": "Assets\\Scripts\\Puzzl.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T10:11:03.79Z",
               "EditorCaption": ""
@@ -443,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
