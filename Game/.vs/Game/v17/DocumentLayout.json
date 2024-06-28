@@ -3,60 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WinScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScriptCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WinScriptCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayerCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BoxPlayerCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DoorCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Door2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Flowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Flowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\StaticData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StaticData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\CodeLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CodeLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DoorCopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\ManTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ManTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Door2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Take.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Take.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BoxPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WinScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TransitionTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TransitionTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Take.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Take.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\For Check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,30 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\NumberBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NumberBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SC_FPSController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\PlayerKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Codelock_password_element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Codelock_password_element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\KeyEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KeyEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DoorEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,37 +86,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManTask.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\ManTask.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManTask.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\ManTask.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManTask.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:55:43.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Flowers.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Flowers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Flowers.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Flowers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Flowers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:54:10.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoxPlayerCopy.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayerCopy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxPlayerCopy.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayerCopy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxPlayerCopy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:44:02.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WinScriptCopy.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScriptCopy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinScriptCopy.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScriptCopy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinScriptCopy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:17:54.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WinScript.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinScript.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:16:22.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Puzzle.cs",
+              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle.cs",
+              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puzzle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T17:15:23.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DoorCopy.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorCopy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorCopy.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorCopy.cs",
               "RelativeToolTip": "Assets\\Scripts\\DoorCopy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAVAAAA",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T14:53:57.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "StaticData.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\StaticData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StaticData.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\StaticData.cs",
               "RelativeToolTip": "Assets\\Scripts\\StaticData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T12:50:35.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Take.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Take.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Take.cs",
@@ -145,59 +207,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Damage.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Damage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Damage.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Damage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Damage.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T12:07:01.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TransitionTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TransitionTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TransitionTrigger.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\TransitionTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TransitionTrigger.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAmwDcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T07:47:52.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "BoxPlayer.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoxPlayer.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\BoxPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\BoxPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T07:15:52.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DragAndDrop.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DragAndDrop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragAndDrop.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DragAndDrop.cs",
               "RelativeToolTip": "Assets\\Scripts\\DragAndDrop.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAABAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T06:27:15.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "For Check.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\For Check.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\For Check.cs",
@@ -210,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "KeyContoller.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\KeyContoller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyContoller.cs",
@@ -223,13 +259,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Door2.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Door2.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door2.cs",
               "RelativeToolTip": "Assets\\Scripts\\Door2.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAAN4AAAAFAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAN4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T05:54:57.518Z",
               "EditorCaption": ""
@@ -242,14 +278,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzl.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Puzzl.cs",
               "RelativeToolTip": "Assets\\Scripts\\Puzzl.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAABgAAAAdAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T10:11:03.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "NumberBox.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\NumberBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NumberBox.cs",
@@ -262,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "menu_script.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\menu_script.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\menu_script.cs",
@@ -275,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Scenes.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Scenes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scenes.cs",
@@ -288,114 +324,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WinScript.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WinScript.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\WinScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WinScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:48:07.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SC_FPSController.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SC_FPSController.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\SC_FPSController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SC_FPSController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAACQAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:34:28.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Key.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Key.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Key.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Key.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Key.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:37:17.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Codelock_password_element.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Codelock_password_element.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Codelock_password_element.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Codelock_password_element.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Codelock_password_element.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:09:04.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CodeLock.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\CodeLock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CodeLock.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\CodeLock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CodeLock.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAA8AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T08:51:00.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DoorEvent.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorEvent.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\DoorEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoorEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T07:49:32.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlayerKey.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\PlayerKey.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerKey.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\PlayerKey.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerKey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T07:49:13.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "KeyEvent.cs",
-              "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\KeyEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyEvent.cs",
-              "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\KeyEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KeyEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T07:48:50.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
               "ToolTip": "C:\\Users\\egorm\\AppData\\Local\\Temp\\game3\\game\\Game\\Assets\\Scripts\\Door.cs",
               "RelativeToolTip": "Assets\\Scripts\\Door.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAVAAAA",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAAHAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T05:35:23.702Z",
               "EditorCaption": ""

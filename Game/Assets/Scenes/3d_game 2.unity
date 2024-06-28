@@ -2177,6 +2177,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775655254}
   m_CullTransparentMesh: 1
+--- !u!1 &1825528983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 236181848221520442, guid: dbf9a75e0650af6439eb7729bcc813db, type: 3}
+  m_PrefabInstance: {fileID: 3358010267504905595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1825528984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825528983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4e37c0cfe9a0641b2f52ba2ab37668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyOne: 115
+  keyTwo: 119
+  moveDirection: {x: 0, y: 0, z: 0.75}
+  finishPanel: {fileID: 1775655254}
+  door: {fileID: 0}
 --- !u!1 &2013817572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,10 +2417,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3189200332350169065, guid: dbf9a75e0650af6439eb7729bcc813db, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 236181848221520442, guid: dbf9a75e0650af6439eb7729bcc813db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1825528984}
   m_SourcePrefab: {fileID: 100100000, guid: dbf9a75e0650af6439eb7729bcc813db, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

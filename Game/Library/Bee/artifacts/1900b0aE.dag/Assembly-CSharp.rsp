@@ -421,6 +421,7 @@
 "Assets/Movement.cs"
 "Assets/Portal.cs"
 "Assets/Scripts/BoxPlayer.cs"
+"Assets/Scripts/BoxPlayerCopy.cs"
 "Assets/Scripts/CameraCoontroller.cs"
 "Assets/Scripts/CodeLock.cs"
 "Assets/Scripts/Codelock_password_element.cs"
@@ -430,6 +431,7 @@
 "Assets/Scripts/DoorCopy.cs"
 "Assets/Scripts/DoorEvent.cs"
 "Assets/Scripts/DragAndDrop.cs"
+"Assets/Scripts/Flowers.cs"
 "Assets/Scripts/ForCheck.cs"
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/KeyContoller.cs"
@@ -454,6 +456,7 @@
 "Assets/Scripts/TransitionTrigger.cs"
 "Assets/Scripts/TVManager.cs"
 "Assets/Scripts/WinScript.cs"
+"Assets/Scripts/WinScriptCopy.cs"
 "Assets/Scripts/WomanDialog.cs"
 -langversion:9.0
 /deterministic
