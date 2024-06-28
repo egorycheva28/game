@@ -8,6 +8,8 @@ public class BoxPlayer : MonoBehaviour
     [SerializeField] KeyCode keyOne;
     [SerializeField] KeyCode keyTwo;
     [SerializeField] Vector3 moveDirection;
+    [SerializeField] GameObject finishPanel;
+    public Door door;
 
     private void FixedUpdate()
     {
@@ -29,8 +31,16 @@ public class BoxPlayer : MonoBehaviour
     {
         if (this.CompareTag("Player") && other.CompareTag("Finish"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            if (currentSceneIndex == 6)
+            {
+                finishPanel.SetActive(true);
+                door.can_be_opened_now = true;
+            }
+            else
+            {
+                SceneManager.LoadScene(currentSceneIndex + 1);  
+            }
         }
     }
 }
-   

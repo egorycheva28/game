@@ -443,6 +443,7 @@
 "Assets/Scripts/KeyEvent.cs"
 "Assets/Scripts/menu_script.cs"
 "Assets/Scripts/NumberBox.cs"
+"Assets/Scripts/ObjectHolder.cs"
 "Assets/Scripts/pickingUp/Highlight.cs"
 "Assets/Scripts/pickingUp/IPickable.cs"
 "Assets/Scripts/pickingUp/PickableItem.cs"
