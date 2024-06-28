@@ -16,10 +16,10 @@ public class WinScript : MonoBehaviour
         fullElement = myPuzzl.transform.childCount;//Получаем кол-во элементов пазла
     }
 
-    
+
     void Update()
     {
-        if(fullElement==myElement)//Если все элементы на своем месте
+        if (fullElement == myElement)//Если все элементы на своем месте
         {
             myPanel.SetActive(false);//Скрываем панель с пазлом
             winPanel.SetActive(true);//Показываем панель победы
