@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3d_game 2.unity
     guid: 30c0bc016f404244493496a9391197dc
+  - enabled: 1
+    path: Assets/Scenes/the_end.unity
+    guid: 5fc3d26d957a644a983361d61d246105
   - enabled: 0
     path: Assets/Scenes/3d_game1.unity
     guid: 5769b83aad2fc4923b3dadb5cdef7dfe
