@@ -32,7 +32,7 @@ public class BoxPlayer : MonoBehaviour
         if (this.CompareTag("Player") && other.CompareTag("Finish"))
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            if (currentSceneIndex == 6)
+            if (currentSceneIndex == 7)
             {
                 finishPanel.SetActive(true);
                 door.can_be_opened_now = true;

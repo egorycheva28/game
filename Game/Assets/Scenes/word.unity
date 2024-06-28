@@ -1207,6 +1207,7 @@ MonoBehaviour:
   myPuzzl: {fileID: 437230359}
   myPanel: {fileID: 301868399}
   winPanel: {fileID: 738439601}
+  arrow: {fileID: 0}
 --- !u!1 &689343745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,7 +3968,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
