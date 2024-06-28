@@ -22,7 +22,7 @@ public class Puzzl : MonoBehaviour
     {
         winPanel.SetActive(false);  // Скрываем панель победы при старте
         Init();
-        for (int i = 0; i < 999; i++)
+        for (int i = 0; i < 2; i++)
         {
             Shuffle();
         }
@@ -66,10 +66,12 @@ public class Puzzl : MonoBehaviour
             buttonback.SetActive(false);
             isSolved = true;
             RemoveAllBoxes();
+            StaticData.canOpenDoor = true;
         }
         else
         {
             Debug.Log("Puzzle is NOT solved");
+            StaticData.canOpenDoor = false;
         }
     }
 

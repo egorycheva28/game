@@ -7,6 +7,8 @@ TagManager:
   - Key
   - Door
   - BlockForeground
+  - Cube
+  - Axe
   layers:
   - Default
   - TransparentFX
