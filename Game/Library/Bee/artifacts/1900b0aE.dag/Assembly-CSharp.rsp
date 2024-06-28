@@ -420,6 +420,7 @@
 "Assets/KeyPad/Number.cs"
 "Assets/Movement.cs"
 "Assets/Portal.cs"
+"Assets/Scripts/BoxPlayer.cs"
 "Assets/Scripts/CameraCoontroller.cs"
 "Assets/Scripts/CodeLock.cs"
 "Assets/Scripts/Codelock_password_element.cs"

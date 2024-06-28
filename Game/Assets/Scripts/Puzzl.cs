@@ -21,7 +21,7 @@ public class Puzzl : MonoBehaviour
     {
         winPanel.SetActive(false);  // Скрываем панель победы при старте
         Init();
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 999; i++)
         {
             Shuffle();
         }
@@ -64,6 +64,7 @@ public class Puzzl : MonoBehaviour
             winPanel.SetActive(true);
             buttonback.SetActive(false);
             isSolved = true;
+            RemoveAllBoxes();
         }
         else
         {
@@ -189,5 +190,15 @@ public class Puzzl : MonoBehaviour
             }
         }
         return true;
+    }
+    void RemoveAllBoxes()
+    {
+        for (int x = 0; x < 4; x++)
+        {
+            for (int y = 0; y < 4; y++)
+            {
+                boxes[x, y].gameObject.SetActive(false);
+            }
+        }
     }
 }

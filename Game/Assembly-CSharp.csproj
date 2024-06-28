@@ -135,6 +135,7 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Scripts\TaskWoman.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\BoxPlayer.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Scripts\DoorEvent.cs" />

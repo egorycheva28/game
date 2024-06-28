@@ -323,9 +323,9 @@ Canvas:
   m_GameObject: {fileID: 322976654}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 1992562454}
+  m_PlaneDistance: 1000
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1105,7 +1105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boxPrefab: {fileID: 6557741416630863607}
   winPanel: {fileID: 1667854714}
-  buttonback: {fileID: 732958724}
+  buttonback: {fileID: 284969913}
   sprites:
   - {fileID: -243258299, guid: c5111557b22889346ab2a937aff2f0c3, type: 3}
   - {fileID: 253686129, guid: c5111557b22889346ab2a937aff2f0c3, type: 3}
