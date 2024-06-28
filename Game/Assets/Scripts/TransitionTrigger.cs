@@ -4,13 +4,24 @@ using UnityEngine.SceneManagement;
 
 public class TransitionTrigger : MonoBehaviour
 {
-    public GameObject transitionButton;
+    public GameObject transitionPanel;
+    public int numberScene;
+
+    private bool playerInTrigger = false;
 
     void Start()
     {
-        if (transitionButton != null)
+        if (transitionPanel != null)
         {
-            transitionButton.SetActive(false);
+            transitionPanel.SetActive(false);
+        }
+    }
+
+    void Update()
+    {
+        if (playerInTrigger && Input.GetKeyDown(KeyCode.F))
+        {
+            GoToNextScene();
         }
     }
 
@@ -18,9 +29,10 @@ public class TransitionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (transitionButton != null)
+            playerInTrigger = true;
+            if (transitionPanel != null)
             {
-                transitionButton.SetActive(true);
+                transitionPanel.SetActive(true);
             }
         }
     }
@@ -29,15 +41,16 @@ public class TransitionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (transitionButton != null)
+            playerInTrigger = false;
+            if (transitionPanel != null)
             {
-                transitionButton.SetActive(false);
+                transitionPanel.SetActive(false);
             }
         }
     }
 
     public void GoToNextScene()
     {
-        SceneManager.LoadScene("NextSceneName");
+        SceneManager.LoadScene(numberScene);
     }
 }

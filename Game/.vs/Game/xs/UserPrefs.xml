@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TransitionTrigger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="Assets/Scripts/TextSwitcher.cs" Line="10" Column="23" IsPinned="True" />
       <File FileName="Assets/Scripts/menu_script.cs" Line="12" Column="6" IsPinned="True" />
-      <File FileName="Assets/Scripts/TakeKeyBath.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/TakeKeyBath.cs" Line="18" Column="1" IsPinned="True" />
       <File FileName="Assets/Scripts/ItemScriptableObject.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="Assets/Scripts/Puzzle.cs" Line="474" Column="30" />
+      <File FileName="Assets/Scripts/Puzzle.cs" Line="517" Column="13" />
       <File FileName="Assets/Scripts/Door.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NumberBox.cs" Line="70" Column="2" />
+      <File FileName="Assets/Scripts/NumberBox.cs" Line="21" Column="65" />
       <File FileName="Assets/Scripts/TextSwitcherController.cs" Line="14" Column="5" />
       <File FileName="Assets/Scripts/Take.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraCoontroller.cs" />
@@ -30,10 +30,11 @@
       <File FileName="Assets/Scripts/pickingUp/IPickable.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/pickingUp/PickableItem.cs" Line="27" Column="2" />
       <File FileName="Assets/Scripts/SceneSwitcher.cs" Line="6" Column="28" />
-      <File FileName="Assets/Scripts/box_game/BoxPlayer.cs" Line="11" Column="45" />
+      <File FileName="Assets/Scripts/box_game/BoxPlayer.cs" Line="6" Column="39" />
       <File FileName="Assets/Scripts/15/Back.cs" Line="16" Column="2" />
       <File FileName="Assets/Scripts/ObjectHolder.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/TransitionTrigger.cs" Line="10" Column="6" />
+      <File FileName="Assets/Scripts/TransitionTrigger.cs" Line="43" Column="6" />
+      <File FileName="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
