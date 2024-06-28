@@ -461,6 +461,7 @@
 "Assets/Scripts/TakeKeyBath.cs"
 "Assets/Scripts/TextSwitcher.cs"
 "Assets/Scripts/TextSwitcherController.cs"
+"Assets/Scripts/TransitionTrigger.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberExample.cs"
 "Assets/SpriteNumberRenderer/Scripts/NumberRenderer.cs"
 "Assets/SpriteNumberRenderer/Scripts/SpriteNumber.cs"

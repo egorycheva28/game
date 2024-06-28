@@ -469,7 +469,7 @@ public class Puzzle : MonoBehaviour
 
     void Start()
     {
-        winPanel.SetActive(false);  // Скрываем панель победы при старте
+        winPanel.SetActive(false);  
         Init();
         for (int i = 0; i < 2; i++)
         {
@@ -513,7 +513,8 @@ public class Puzzle : MonoBehaviour
             Debug.Log("Puzzle is solved");
             winPanel.SetActive(true);
             buttonback.SetActive(false);
-            isSolved = true;  
+            isSolved = true;
+            RemoveAllBoxes();
         }
         else
         {
@@ -641,5 +642,17 @@ public class Puzzle : MonoBehaviour
         }
         return true;
     }
+
+    void RemoveAllBoxes()  
+    {
+        for (int x = 0; x < 4; x++)
+        {
+            for (int y = 0; y < 4; y++)
+            {
+                boxes[x, y].gameObject.SetActive(false);
+            }
+        }
+    }
+
 }
 
