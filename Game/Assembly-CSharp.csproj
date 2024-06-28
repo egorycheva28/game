@@ -137,6 +137,7 @@
     <Compile Include="Assets\Scripts\KeyEvent.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Scripts\NumberBox.cs" />
+    <Compile Include="Assets\Scripts\TriggerZone.cs" />
     <Compile Include="Assets\Scripts\StaticData.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Scripts\BoxPlayerCopy.cs" />
