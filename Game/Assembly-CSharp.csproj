@@ -125,6 +125,7 @@
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Scripts\TextSwitcher.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
+    <Compile Include="Assets\Scripts\DoorCopy.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

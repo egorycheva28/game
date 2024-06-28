@@ -215,7 +215,7 @@ public class Door : MonoBehaviour
 
     void Open_close()
     {
-        can_be_opened_now = StaticData.canOpenDoor;
+        //can_be_opened_now = StaticData.canOpenDoor;
         if (can_be_opened_now)
         {
             open_close_ON = true;

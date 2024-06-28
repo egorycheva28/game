@@ -427,6 +427,7 @@
 "Assets/Scripts/Damage.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/Door2.cs"
+"Assets/Scripts/DoorCopy.cs"
 "Assets/Scripts/DoorEvent.cs"
 "Assets/Scripts/DragAndDrop.cs"
 "Assets/Scripts/ForCheck.cs"

@@ -677,7 +677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043D\u0430\u0437\u0430\u0434"
+  m_text: "\u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1507,7 +1507,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1319283542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1327188357}
+        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
+        m_MethodName: scenLoad
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1319283542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,6 +1569,7 @@ GameObject:
   - component: {fileID: 1327188356}
   - component: {fileID: 1327188355}
   - component: {fileID: 1327188354}
+  - component: {fileID: 1327188357}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1638,6 +1651,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 33.82, y: 228.794, z: 0.001}
+--- !u!114 &1327188357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327188353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135b98d5528adf440b0dedafe985acb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1342862002
 PrefabInstance:
   m_ObjectHideFlags: 0
