@@ -10,7 +10,25 @@ public class Puzzle : MonoBehaviour
     float startPosY;
     public GameObject form;
     bool finish;
-   
+
+    public SC_FPSController fpsController;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            fpsController.canMove = false;
+            
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            fpsController.canMove = true;
+        }
+    }
 
     void OnMouseDown()
     {

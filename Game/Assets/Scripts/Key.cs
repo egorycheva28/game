@@ -1,48 +1,95 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-[RequireComponent (typeof(BoxCollider))]
-
 
 public class Key : MonoBehaviour
 {
-    public GameObject myPlayer;
-    private float distance;
-    public float interactDistance = 2f;
+    public Camera mainCamera;  // Камера игрока 
+    public KeyCode pickUpKey = KeyCode.E;  // Клавиша для поднятия ключа 
+    public KeyCode dropKey = KeyCode.Q;  // Клавиша для броска ключа 
+    public float throwForce = 10f;  // Сила броска 
 
-    public KeyCode myKey = KeyCode.E;
+    private Transform originalParent;
+    private Rigidbody rb;
+    public bool isHeld = false;
+    private bool isNear = false;
 
-    //public Text myText;
-    //public Image myImage;
-
-    public GameObject openKey;
-
-    void OnMouseOver()
+    void Start()
     {
-        distance = Vector3.Distance(myPlayer.GetComponent<Transform>().position, transform.position);
-        if(distance < interactDistance )
+        if (mainCamera == null)
         {
-            //myText.enabled = true;
-            //myImage.enabled = true;
-            if(Input.GetKeyDown(myKey))
-            {
-                //openKey.GetComponent<Open>().key = true;
-                //openKey.GetComponent<KeyMessage>().flag = false;
-                //myText.enabled = false;
-                //myImage.enabled = false;
-                Destroy(gameObject);
-            }
+            mainCamera = Camera.main;
         }
-        if(distance > interactDistance )
+
+        originalParent = transform.parent;
+
+        rb = GetComponent<Rigidbody>();
+        if (rb == null)
         {
-            //myImage.enabled = false;
+            rb = gameObject.AddComponent<Rigidbody>();
+        }
+        rb.isKinematic = true;
+
+
+        Collider collider = GetComponent<Collider>();
+        if (collider != null)
+        {
+            collider.isTrigger = true;
         }
     }
 
-    void OnMouseExit()
+    void Update()
     {
-        //myText.enabled = false; 
-        //myImage.enabled = false;
+        // Поднятие ключа 
+        if (isNear && !isHeld && Input.GetKeyDown(pickUpKey))
+        {
+            PickUpKey();
+        }
+        // Бросок ключа 
+        else if (isHeld && Input.GetKeyDown(dropKey))
+        {
+            DropKey();
+        }
+    }
+
+    private void PickUpKey()
+    {
+        isHeld = true;
+        transform.SetParent(mainCamera.transform);
+        transform.localPosition = new Vector3(0.5f, -0.25f, 1.0f);
+        transform.localRotation = Quaternion.identity;
+
+
+        GetComponent<Collider>().enabled = false;
+        rb.isKinematic = true;
+    }
+
+    private void DropKey()
+    {
+        isHeld = false;
+        transform.SetParent(originalParent);
+
+        transform.position = mainCamera.transform.position + mainCamera.transform.forward * 1.5f;
+        transform.rotation = mainCamera.transform.rotation;
+
+        GetComponent<Collider>().enabled = true;
+        rb.isKinematic = false;
+
+
+        rb.AddForce(mainCamera.transform.forward * throwForce, ForceMode.VelocityChange);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isNear = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isNear = false;
+        }
     }
 }
