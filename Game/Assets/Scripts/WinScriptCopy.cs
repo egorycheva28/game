@@ -8,7 +8,7 @@ public class WinScriptCopy : MonoBehaviour
     public static int myElement;//Число элементов, лежащих на своем месте
     public GameObject myPuzzl;//Родительский объект, содержащий все элементы пазла 
     public GameObject myPanel;//Панель с пазлом
-    public GameObject winPanel;//Панель победы
+  
     //public GameObject arrow;
 
     void Start()
@@ -23,7 +23,7 @@ public class WinScriptCopy : MonoBehaviour
         if (myElement == 7)//Если все элементы на своем месте
         {
             myPanel.SetActive(false);//Скрываем панель с пазлом
-            winPanel.SetActive(true);//Показываем панель победы
+        
             StaticData.canTakeFlower2 = true;
             //arrow.SetActive(true);
         }
